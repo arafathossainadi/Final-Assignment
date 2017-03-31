@@ -1,0 +1,156 @@
+.select{
+    border: 2px solid gray;
+    height: 40px;
+    margin: 0 auto;
+    display: block;
+    border-radius: 10px;
+    outline-style: none;
+    font-size: 25px;
+    font-family: monospace;
+}
+
+body{
+    margin-top: 20px;
+    font-family: "Trebuchet MS", sans-serif;
+}
+.demoHeaders {
+    margin-top: 2em;
+}
+#dialog-link {
+    padding: .4em 1em .4em 20px;
+    text-decoration: none;
+    position: relative;
+}
+#dialog-link span.ui-icon {
+    margin: 0 5px 0 0;
+    position: absolute;
+    left: .2em;
+    top: 50%;
+    margin-top: -8px;
+}
+#icons {
+    margin: 0;
+    padding: 0;
+}
+#icons li {
+    margin: 2px;
+    position: relative;
+    padding: 4px 0;
+    cursor: pointer;
+    float: left;
+    list-style: none;
+}
+#icons span.ui-icon {
+    float: left;
+    margin: 0 4px;
+}
+.fakewindowcontain .ui-widget-overlay {
+    position: absolute;
+}
+
+.dt{
+    font-size: 30px;
+    margin: 0 auto;
+    display: block;
+    margin-top: 20px;
+    font-family: monospace;
+    text-align: center;
+    margin-bottom: 20px;
+    border: 2px solid grey;
+    outline-style: none;
+    border-radius: 11px;
+}
+
+.wb{
+    color: white;
+    width: 500px;
+    height: 250px;
+    display: block;
+    margin: 0 auto;
+    border: 1px solid black;
+    text-align: center;
+    border-radius: 5px;
+    border: 2px solid gray;
+}
+
+.wb-bg{
+    background: url(../images/bg.jpg);
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.wb p{
+    font-size: 30px;
+    margin: 15px;
+}
+
+.inp-cust{
+    color: gray;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    height: 33px;
+    border: 2px solid gray;
+    text-align: center;
+}
+
+.btn-cust{
+    margin-top: -3px;
+}
+
+
+#container {
+    width: 500px;
+    background: #ffffff;
+    padding: 20px;
+    margin: 30px auto;
+    border-radius: 5px;
+    height: 230px;
+    border: 2px solid gray;
+}
+#header {
+    text-align: center;
+    background-color: #FEFFED;
+    border-radius: 5px;
+    margin: -39px -20px 10px -20px;
+}   
+h2{
+    padding-top: 10px;
+}
+#content {
+    margin-left: 97px;
+    margin-top: 32px;
+}
+#register label{
+    margin-right:5px;
+}
+#register input {
+    padding: 5px 14px;
+    border: 1px solid #d5d9da;
+    box-shadow: 0 0 9px rgb(255, 106, 0) inset;
+    font-size: 16px;
+    height: 45px;
+    width: 250px;
+    text-align: center;
+}
+#register .short{
+    font-weight:bold;
+    color:#FF0000;
+    font-size:larger;
+}
+#register .weak{
+    font-weight:bold;
+    color:orange;
+    font-size:larger;
+}
+#register .good{
+    font-weight:bold;
+    color:#2D98F3;
+    font-size:larger;
+}
+#register .strong{
+    font-weight:bold;
+    color: limegreen;
+    font-size:larger;
+}
